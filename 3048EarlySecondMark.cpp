@@ -69,7 +69,6 @@ public:
         
         int lo = minNeeded;
         int hi = m;
-        // FFFFFTTTTTT, minimum true 
         while(hi - lo > 1)
         {
             int mid = (hi + lo)/2;
